@@ -1,9 +1,12 @@
+/* reset */
 body{
     background-color: #F6F8F9;
     margin: 0;
     box-sizing: border-box;
     padding: 0;
 }
+
+/* sezione del logo mia header */
 header{
     background-color: white;
     width: 100%;
@@ -14,14 +17,38 @@ header{
     padding-left: 20px;
 }
 .logo > h1{
+    margin: 0;
     font-size: 60px;
     display: inline-block;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
 }
+/* /sezione del logo mia header */
 
 main{
     width: 80%;
     margin: auto;
     background-color: white;
+}
+
+.bottoni{
+    height: 60px;
+    margin: 50px auto;
+    background-color: white;
+    padding-left: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+button{
+    margin: 20px 5px;
+    padding: 5px;
+    color: gainsboro;
+    border: 1px solid gainsboro;
+    background-color: ghostwhite;
+    font-size: 12px;
+    border-radius: 5px;  
+}
+button:hover{
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
 }
