@@ -24,21 +24,18 @@ header{
 }
 /* /sezione del logo mia header */
 
-main{
-    width: 80%;
-    margin: auto;
-    background-color: white;
-}
-
+/* sezione inpostazioni bottoni  */
 .bottoni{
+    width: 80%;
     height: 60px;
-    margin: 50px auto;
+    margin: 40px auto 0px;
     background-color: white;
     padding-left: 50px;
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 5px;
 }
 button{
+    margin: auto;
     margin: 20px 5px;
     padding: 5px;
     color: gainsboro;
@@ -51,4 +48,30 @@ button:hover{
     color: white;
     background-color: cornflowerblue;
     font-weight: bold;
+}
+.task{
+    width: 80%;
+    background-color: white;
+    margin: 5px auto 0px;
+    padding-left: 50px;   
+}
+
+h1{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.verde{
+    color: green;
+}
+.carattere{
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: #45ABEA;
+    padding: 5px;
 }
