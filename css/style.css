@@ -1,110 +1,123 @@
 /* reset */
-body{
-    background-color: #F6F8F9;
-    margin: 0;
+*{
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
 }
 
-/* sezione del logo mia header */
-header{
-    background-color: white;
-    width: 100%;
-    height: 80px;
-}
-.logo > img{
-    vertical-align: middle;
-    padding-left: 20px;
-}
-.logo > h1{
-    margin: 0;
-    font-size: 60px;
-    display: inline-block;
-    vertical-align: middle;   
-}
-/* /sezione del logo mia header */
-
-/* sezione inpostazioni bottoni  */
-.bottoni{
+body{
+    background-color: #8f9eac45;
     width: 80%;
+    margin: auto;
+}
+
+ /* header sezione logo */
+header{
+    background: white;
+    padding: 5px 20px 0px;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#titolo_logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+/* sezione  bottoni main */
+#heder_main{
+    width: 100%;
+    margin: 20px auto 0px;
     height: 60px;
-    margin: 40px auto 0px;
     background-color: white;
-    padding-left: 50px;
-    border: 2px solid rgb(255, 255, 255);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 25px;
+}
+
+.bottone{
+    width: 60px;
+    height: 20px;
+    text-decoration: none;
     border-radius: 5px;
 }
-button{
-    margin: auto;
-    margin: 20px 5px;
-    padding: 5px;
-    color: gainsboro;
-    border: 1px solid gainsboro;
-    background-color: ghostwhite;
-    font-size: 12px;
-    border-radius: 5px;  
-}
-button:hover{
-    color: white;
+.colsi{
+    padding: 2px;
+    border: 1px solid rgb(255, 236, 236);
     background-color: cornflowerblue;
-    font-weight: bold;
+    color: white;
 }
-.task{
-    width: 80%;
+
+.colno{
+    padding: 2px;
+    border: 1px solid grey;
     background-color: white;
-    margin: 5px auto 0px;
-    padding-left: 50px;  
-    line-height: 2.1em; 
+    color: grey;
+    margin-left: 5px;
 }
 
-h1{
-    display: inline-block;
-    font-size: 20px;
-    margin-bottom: 5px;
+/* sezione delle liste  */
+#liste_main{
+    margin-top: 2px;
+    height: 500px;
+    background-color: white;
+}
+#liste{
+    list-style: none;
+    padding: 40px;
+    line-height: 2rem;
+    
+}
+.down::after{
+    content: ' \25BE';
 }
 
-/* entitys verdi rosse  */
-.verde{
+.yes::after{
+    width: 3px;
+    height: 3px;
+    border: 2px solid rgba(0, 128, 0, 0.521);
+    border-radius: 50%;
     color: green;
+    content: ' \2713';
+    margin-right: 5px;
+    
 }
-
-.rosso{
+.no::after{
+    width: 3px;
+    height: 3px;
+    border: 2px solid rgba(255, 0, 0, 0.671);
+    border-radius: 50%;
     color: red;
+    content: ' \2715';
+    margin-right: 5px;
+    
 }
-.carattere{
-    font-size: 1.6em;
+li{
+    padding: 2px;
 }
 
-/* buttom vari  */
-.editoriale{
-    text-decoration: none;
+/* set bottoni colorati  */
+.bott{
     color: white;
     border: 1px solid black;
-    border-radius: 25px;
-    background-color: #45ABEA;
-    padding: 1px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px;
+
 }
-.q1{
-    text-decoration: none;
-    color: white;
-    border: 1px solid black;
-    border-radius: 25px;
-    background-color: violet;
-    padding: 1px;
+.bgblue{
+    background-color: lightskyblue;
 }
-.recruiting{
-    text-decoration: none;
-    color: white;
-    border: 1px solid black;
-    border-radius: 25px;
+.bgyellow{
+    background-color: yellow;
+}
+.bggreen{
     background-color: green;
-    padding: 1px;
 }
-.mobile{
-    text-decoration: none;
-    color: white;
-    border: 1px solid black;
-    border-radius: 25px;
+.bgorange{
     background-color: orange;
-    padding: 1px;
 }

@@ -4,90 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toboolist</title>
+    <title>ToBoolist</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- logo pagina -->
+    <!-- header logo -->
     <header>
-        <div class="logo">
-            <img src="./img/Logo.png" alt="logo  boolean">
-            <h1>Toboolist</h1>
-        </div>
+        <img id="logo" src="./img/Logo.png" alt="logo">
+        <h1 id="titolo_logo">Toboolist</h1>
     </header>
-    <!-- logo pagina -->
+    <!-- /header logo -->
 
-        <!-- sezione button -->
-    <div class="bottoni">
-        <button>Add Task</button>
-        <button>Add Section</button>
-   </div>
-        <!-- /sezione button -->
 
-        <!-- new task  -->
-    <div class="task"> 
-        <span>&#9660;</span> <h1>New Task</h1>
-        <div>
-            <span class="verde">&#10004;</span> 
-            <span class="carattere">Quarterly Newsletter</span>
-            <a href="#" class="editoriale">Editorial</a> 
-        </div>        
-        <!-- new task  -->
-         <!-- sezione di today -->
-        <div>
-            <span>&#9660;</span> <h1>Today</h1>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Recruiting blog post</span>
-                <a href="#" class="editoriale">Editorial</a> 
-            </div>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Mobile app luaunch</span>
-                <a href="#" class="q1">Q1 goals</a> 
-            </div>
-            <div>
-                <span class="rosso">&#10008;</span> 
-                <span class="carattere">Interview John H.</span>
-                <a href="#" class="recruiting">Recruiting</a> 
-            </div>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Summit update to mobile stoeefronts</span>
-                <a href="#" class="mobile">Mobile</a> 
-            </div>
+    <!-- main  -->
+    <main>
+        <!-- sezione bottoni -->
+        <div id="heder_main">
+            <a class="bottone colsi" href="#">AddTask</a>
+            <a class="bottone colno"href="#">AddSection</a>
         </div>
-         <!-- /sezione di today -->
-
-        <!-- sezione Upcoming  -->
-        <div>
-            <span>&#9660;</span> <h1>Upcoming</h1>
-            <div>
-                <span class="rosso">&#10008;</span> 
-                <span class="carattere">Schedule meeting with Alex</span>
-                <a href="#" class="editoriale">Editorial</a> 
-            </div>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Homepage refresh</span>
-                <a href="#" class="q1">Q1 goals</a> 
-            </div>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Oboard new Sales team members</span>
-                <a href="#" class="recruiting">Sales</a> 
-            </div>
-            <div>
-                <span class="verde">&#10004;</span> 
-                <span class="carattere">Review editorial calendar</span>
-                <a href="#" class="editoriale">Editorial</a> 
-            </div>
-        </div>
-        <!-- /sezione Upcoming  -->
-
-    </div>
-
-
+        <!-- /sezione bottoni -->
     
+        <!-- sezione delle liste -->
+        <div id="liste_main">
+            <ul id="liste">
+                <li>
+                    <h2 class="down">New Task</h2>
+                    <li><span class="yes">
+                    </span> Lorem ipsum dolor amet consectetur, elit. 
+                    <a class="bott bgblue" href="#">editorial</a></li> 
+                </li>
+
+                <li>
+                    <h2 class="down">To Day</h2>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bgyellow" href="#">Sales</a></li>
+                    <li><span class="no"></span>Lorem ipsum dolor sit amet.
+                        <a class="bott bgorange" href="#">Mobile</a></li>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bgblue" href="#">editorial</a></li>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bggreen" href="#">Q1 Goal</a></li>
+                </li>
+
+                <li>
+                    <h2 class="down">Upcoming</h2>
+                    <li><span class="no"></span>Lorem ipsum dolor sit amet.</li>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bgyellow" href="#">Sales</a></li>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bggreen" href="#">Q1 Goal</a></li>
+                    <li><span class="yes"></span> Lorem ipsum dolor amet consectetur, elit.
+                        <a class="bott bgorange" href="#">Mobile</a></li>
+                </li>
+            </ul>
+
+        </div>
+        <!-- sezione delle liste -->
+
+    <!-- /main  -->
+       
+    </main>
+ 
+
+
 </body>
 </html>
